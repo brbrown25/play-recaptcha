@@ -1,13 +1,13 @@
 To add the play-recaptcha module to an existing web application, please follow the instructions below.
 
-* [Pre-requisites](#Pre-requisites)
-* [Build Dependency](#Build-Dependency)
-* [Configuration](#Configuration)
-* [Internationalisation](#Internationalisation)
-* [View Template](#View-Template)
-* [Messages](#Messages)
-* [Controller](#Controller)
-* [Troubleshooting](#Troubleshooting)
+* [Pre-requisites](#rre-requisites)
+* [Build Dependency](#build-dependency)
+* [Configuration](#configuration)
+* [Internationalisation](#internationalisation)
+* [View Template](#view-template)
+* [Messages](#messages)
+* [Controller](#controller)
+* [Troubleshooting](#troubleshooting)
 
 ##Pre-requisites
 Before you can use the play-recaptcha module, you need to have registered with
