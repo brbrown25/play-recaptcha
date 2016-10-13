@@ -1,26 +1,26 @@
 This is a [Play Framework](http://www.playframework.com) module, for Scala and Play 2.x, to provide integration with [Google reCAPTCHA](http://www.google.com/recaptcha) in a reactive (non-blocking) manner.
 
-* [Release details](#latest-release)
+* [Release details](#module-release)
 * [Changelog](#changelog)
 * [Module Dependency](#module-dependency)
 * [How to use](#how-to-use)
 
-## Latest Release
+##Module Release
 
 | Module Revision | reCAPTCHA Versions | Play Version | Scala Versions | ScalaDoc |
 |:---------------:|:------------------:|:------------:|:--------------:|:--------:|
 |1.0              |v1, v2              |2.3.x         |2.10, 2.11      |[ScalaDoc](http://www.javadoc.io/doc/com.nappin/play-recaptcha_2.11/1.0)|
 
-### Changelog
+###Changelog
 
-#### Release 1.0
+####Release 1.0
 * Added support for reCAPTCHA version 2 (aka no-captcha reCAPTCHA)
 
-#### Release 0.9
+####Release 0.9
 * Added full support for internationalisation (Play i18n and reCAPTCHA language and custom strings)
 * Added security settings (invoke service and widget using HTTP or HTTPS)
 
-#### Release 0.8
+####Release 0.8
 * Initial release
 
 ##Module Dependency
@@ -31,11 +31,11 @@ The play-recaptcha module is distributed using Maven Central so it can be easily
 ##How to use
 Please see these examples:
 
-![reCAPTCHA version 1 example](https://raw.githubusercontent.com/chrisnappin/play-recaptcha/master/recaptcha-example-v1.png)
+![reCAPTCHA version 1 example](recaptcha-example-v1.png)
 
 * [example reCAPTCHA v1 application](https://github.com/chrisnappin/play-recaptcha-example/tree/release-1.0)
 
-![reCAPTCHA version 2 example](https://raw.githubusercontent.com/chrisnappin/play-recaptcha/master/recaptcha-example-v2.png)
+![reCAPTCHA version 2 example](recaptcha-example-v2.png)
 
 * [example reCAPTCHA v2 application](https://github.com/chrisnappin/play-recaptcha-v2-example/tree/release-1.0)
 
