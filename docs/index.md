@@ -1,5 +1,10 @@
 This is a [Play Framework](http://www.playframework.com) module, for Scala and Play 2.x, to provide integration with [Google reCAPTCHA](http://www.google.com/recaptcha) in a reactive (non-blocking) manner.
 
+* [Release details](#Latest-Release)
+* [Changelog](#Changelog)
+* [Module Dependency](#Module-Dependency)
+* [How to use](#How-to-use)
+
 ## Latest Release
 
 | Module Revision | reCAPTCHA Versions | Play Version | Scala Versions | ScalaDoc |
