@@ -8,8 +8,8 @@ with [Google reCAPTCHA](http://www.google.com/recaptcha) in a reactive (non-bloc
 
 | Module Revision | reCAPTCHA Versions | Documentation | Play Version | Scala Versions | ScalaDoc | 
 |:---------------:|:------------------:|:-------------:|:------------:|:--------------:|:--------:|
-|1.5              |v1, v2              |[Documentation](https://github.com/chrisnappin/play-recaptcha-v2-example/blob/play-2.4-branch/docs/index.md)|2.4.x         |2.10, 2.11      |[ScalaDoc](http://www.javadoc.io/doc/com.nappin/play-recaptcha_2.11/1.5)|
-|1.0              |v1, v2              |[Documentation](https://github.com/chrisnappin/play-recaptcha-v2-example/blob/play-2.3-branch/docs/index.md)|2.3.x         |2.10, 2.11      |[ScalaDoc](http://www.javadoc.io/doc/com.nappin/play-recaptcha_2.11/1.0)|
+|1.5              |v1, v2              |[Documentation](https://github.com/chrisnappin/play-recaptcha/blob/play-2.4-branch/docs/index.md)|2.4.x         |2.10, 2.11      |[ScalaDoc](http://www.javadoc.io/doc/com.nappin/play-recaptcha_2.11/1.5)|
+|1.0              |v1, v2              |[Documentation](https://github.com/chrisnappin/play-recaptcha/blob/play-2.3-branch/docs/index.md)|2.3.x         |2.10, 2.11      |[ScalaDoc](http://www.javadoc.io/doc/com.nappin/play-recaptcha_2.11/1.0)|
 
 ##How to use
 Please see the [documentation](docs/index.md) for details of how to use this module.
