@@ -192,5 +192,13 @@ object WidgetHelper {
     }
     
     /** As taken from Google reCAPTCHA documentation, 23/07/2014. This needs to be kept up to date. */
-    private val supportedCodes = Seq( "en", "nl", "fr", "de", "pt", "ru", "es", "tr" ) 
+    private val supportedCodes = Seq( "en", "nl", "fr", "de", "pt", "ru", "es", "tr" )
+
+		/**
+			* Returns the configured selenium valid code, or none if none defined
+			* @return The determine wether or not to bypass recaptcha
+			*/
+		def getSeleniumBypassCode(): String = {
+				current.configuration.getString(RecaptchaConfiguration.seleniumBypassCode).getOrElse("")
+		}
 }

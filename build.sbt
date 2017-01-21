@@ -2,9 +2,9 @@ name := "play-recaptcha"
 
 description := "Google reCAPTCHA integration for Play Framework"
 
-organization := "com.nappin"
+organization := "com.bbrownsound"
 
-version := "1.0"
+version := "1.1.0-SNAPSHOT"
 
 lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
@@ -16,9 +16,9 @@ libraryDependencies ++= Seq(
 )
 
 // latest sbt-gpg plugin needs to know these explicitly
-pgpSecretRing := file("/home/chris/Development/SonatypeKey/secring.asc")
+pgpSecretRing := file("/Users/brown/.sbt/gpg/secring.asc")
 
-pgpPublicRing := file("/home/chris/Development/SonatypeKey/pubring.asc")
+pgpPublicRing := file("/Users/brown/.sbt/gpg/pubring.asc")
 
 // adds "test-conf" to the test classpath (for message resolving)
 unmanagedClasspath in Test <+= baseDirectory map { bd => Attributed.blank(bd / "test-conf") }
@@ -39,7 +39,7 @@ publishArtifact in Test := false
 pomIncludeRepository := { _ => false }
 
 pomExtra := (
-  <url>http://chrisnappin.github.io/play-recaptcha</url>
+  <url>https://github.com/brbrown25/play-recaptcha</url>
   <licenses>
     <license>
       <name>Apache License, Version 2.0</name>
@@ -48,15 +48,15 @@ pomExtra := (
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:git@github.com:chrisnappin/play-recaptcha.git</connection>
-    <developerConnection>scm:git:git@github.com:chrisnappin/play-recaptcha.git</developerConnection>
-    <url>git@github.com:chrisnappin/play-recaptcha.git</url>
+    <connection>scm:git:git@github.com:brbrown25/play-recaptcha.git</connection>
+    <developerConnection>scm:git:git@github.com:brbrown25/play-recaptcha.git</developerConnection>
+    <url>git@github.com:brbrown25/play-recaptcha.git</url>
   </scm>
   <developers>
     <developer>
-      <id>chrisnappin</id>
-      <name>Chris Nappin</name>
-      <email>chris@nappin.com</email>
+      <id>bbrownsound</id>
+      <name>Brandon Brown</name>
+      <email>brandon@bbrownsound.com</email>
       <timezone>UTC</timezone>
     </developer>
   </developers>)
